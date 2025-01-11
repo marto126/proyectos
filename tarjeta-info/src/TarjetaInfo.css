@@ -1,0 +1,71 @@
+/* Estilos para la tarjeta */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin: 16px 0;
+    color: #000000;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0 16px 16px 16px;
+  }
+  
+  .card a button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 600px) {
+    .card {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+    .card h2 {
+      font-size: 1.25rem;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+    }
+  
+    .card a button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
