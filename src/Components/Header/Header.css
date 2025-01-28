@@ -1,0 +1,29 @@
+Header{
+  background-color: rgb(226, 145, 69);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Header img{
+    width: 95px;
+    border-radius:50px;
+
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+header ul li a {
+    background-color: rgb(206, 98, 55);
+    padding: 10px;
+    width: 85px;
+    border-radius:16px;
+    text-align: center;
+    display: inline-block;
+    color: wheat;
+    transition: 50ms;
+}
+header a:hover {
+    scale: 1.1;
+}
